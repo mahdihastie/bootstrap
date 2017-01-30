@@ -1,9 +1,8 @@
 #!/bin/sh
 
-echo "Please enter password"
-read PW
-
-sudo su - && $PW 
+--sudo)
+  SUDO_ENABLE=true;
+;;
 
 echo "Please enter the host name"
 read NAME
