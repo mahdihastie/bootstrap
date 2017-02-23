@@ -2,15 +2,15 @@
 
 echo "Please enter the user name"
 read NAME
-echo "the hostname is now $NAME"
+echo "the user name is now $NAME"
 
 echo "Please enter the short name"
 read SHORT
-echo "the hostname is now $SHORT"
+echo "the short name is now $SHORT"
 
 echo "Please enter the user ID"
 read ID
-echo "the hostname is now $ID"
+echo "the ID is now $ID"
 
 dscl . -create /Users/$NAME
 dscl . -create /Users/$NAME UserShell /bin/bash
